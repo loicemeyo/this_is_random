@@ -17,7 +17,7 @@ const NavBar = (props) => {
           <IconButton className='' color="inherit" aria-label="Menu">
               <MenuIcon />
             </IconButton>
-            <Typography variant="h5" color="inherit">
+            <Typography variant="h5" color="inherit" className='nav-text'>
               This is Random!
             </Typography>
             <Typography variant="h6" color="inherit">

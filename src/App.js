@@ -47,11 +47,12 @@ class App extends Component {
     const data = phoneNumbers.map(phoneNumber =>({number:`07${phoneNumber}`}))
     const max = `07${_.max(phoneNumbers)}`
     const min =  `07${_.min(phoneNumbers)}`
+    const total = phoneNumbers.length
 
     return (
       <div>
         <NavBar generateNumbers={this.generateNumbers} data={data}></NavBar>
-        <SubNav max={max} min={min}></SubNav>
+        <SubNav max={max} min={min} total={total}> </SubNav>
         <NumbersTable 
           phoneNumbers={phoneNumbers}
           sortOrder={sortOrder}
