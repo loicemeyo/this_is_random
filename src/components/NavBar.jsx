@@ -17,10 +17,10 @@ const NavBar = (props) => {
           <IconButton className='' color="inherit" aria-label="Menu">
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" color="inherit">
+            <Typography variant="h5" color="inherit">
               This is Random!
             </Typography>
-            <Typography variant="h8" color="inherit">
+            <Typography variant="h6" color="inherit">
               A random phone number generating application
             </Typography>
 
