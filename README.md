@@ -4,6 +4,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/de00ed0332c3d844b4d6/maintainability)](https://codeclimate.com/github/loicemeyo/this_is_random/maintainability)
 
+This application is hosted here: https://this-is-random.herokuapp.com
+
 A web application that generates random phone numbers, lits them on a page and
 also enables the users to download them in a csv file
 
