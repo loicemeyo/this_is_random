@@ -1,0 +1,15 @@
+.btn-generate{
+    background:linear-gradient(rgb(245, 169, 54),rgb(54, 136, 245));
+    font-weight:500;
+}
+
+.nav{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between
+}
+.left-menu{
+    display:flex;
+    align-items: center
+}
