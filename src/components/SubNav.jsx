@@ -1,5 +1,5 @@
 import React from 'react'
-import './subna.css';
+import './subnav.css';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -14,6 +14,7 @@ const SubNav = (props) => {
             <Typography variant="h6" color="inherit" className='sub-nav-text'>
               Maximum: { max }
             </Typography>
+            < br/>
             <Typography variant="h6" color="inherit">
               Minimum : { min }
             </Typography>
